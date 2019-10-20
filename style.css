@@ -116,7 +116,7 @@ input {
     grid-row: 3/4;
   }
   #buttonSubtract  {
-    border: 1px solid fff;
+    border: 1px solid #fff;
     color: white;
     background-color: #C0C0C0;
     grid-column: 5/6;
@@ -144,6 +144,8 @@ input {
     grid-column: 5/6;
     grid-row: 6/8;
   }
+ 
+  
   
 
   
