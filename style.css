@@ -1,0 +1,149 @@
+body {
+    background-image: url("crazy-teacher-2.jpg");
+    padding-bottom: 100px;
+}
+.grid-container {
+    display: grid;
+    width: 100;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid black;
+    background-image: url("crazy-teacher.png");
+    text-align: center;
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    
+  }
+input {
+    font-size: 40px;
+}
+  
+  h1 {
+      text-align: center;
+      color: #FF0000;
+      font-size: 60px;
+  }
+  .grid-container input {
+      margin-top: 30px;
+      margin-right: 30px;
+  }
+#display {
+    border: 1px solid fff;
+    color: #fff;
+    grid-column: 2/6;
+    grid-row: 2/3;
+    background-color: #F5FC87;
+    text-align: right;
+    color: #000;
+    padding-right: 30px;
+    font-size: 2rem;
+  }
+  #num9{
+    border: 1px solid #000;
+    color: #000;
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+  #num8 {
+    border: 1px solid #000;
+    color: #000;
+    grid-column: 3/4;
+    grid-row: 4/5;
+  }
+  #num7{
+    border: 1px solid #000;
+    color: #000;
+    grid-column: 4/5;
+    grid-row: 4/5;
+  }
+  #num4{
+    border: 1px solid #000;
+    color: #000;
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+  #num5 {
+    border: 1px solid #000;
+    color: #000;
+    grid-column: 3/4;
+    grid-row: 5/6;
+  }
+ #num6{
+    border: 1px solid #000;
+    color: #000;
+    grid-column: 4/5;
+    grid-row: 5/6;
+  }
+  #num1 {
+    border: 1px solid #000;
+    color: #000;
+    grid-column: 2/3;
+    grid-row: 6/7;
+  }
+  #num2 {
+    border: 1px solid #000;
+    color: #000;
+    grid-column: 3/4;
+    grid-row: 6/7;
+  }
+  #num3 {
+    border: 1px solid #000;
+    color: #000;
+    grid-column: 4/5;
+    grid-row: 6/7;
+  }
+
+ #num0{
+    border: 1px solid #000;
+    color: #000;
+    grid-column: 2/5;
+    grid-row: 7/8;
+  }
+  #buttonReset {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #C0C0C0;
+    grid-column: 2/4;
+    grid-row: 3/4;
+  }
+  #buttonAdd {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #C0C0C0;
+    grid-column: 4/5;
+    grid-row: 3/4;
+  }
+  #buttonSubtract  {
+    border: 1px solid fff;
+    color: white;
+    background-color: #C0C0C0;
+    grid-column: 5/6;
+    grid-row: 3/4;
+  }
+ #buttonMultiply {
+    border: 1px solid #fff;
+    color: white;
+    background-color: #C0C0C0;
+    grid-column: 5/6;
+    grid-row: 4/5;
+  }
+  #buttonDivide {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #C0C0C0;
+    grid-column: 5/6;
+    grid-row: 5/6;
+  }
+
+  #buttonEquals {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #C0C0C0;
+    grid-column: 5/6;
+    grid-row: 6/8;
+  }
+  
+
+  
+
