@@ -1,5 +1,5 @@
 body {
-    background-image: url("crazy-teacher-2.jpg");
+    background-image: url("crazy-teacher.png");
     padding-bottom: 100px;
 }
 .grid-container {
@@ -8,7 +8,7 @@ body {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     border: 1px solid black;
-    background-image: url("crazy-teacher.png");
+    background-image: url("crazy-teacher-2.jpg");
     text-align: center;
     width: 1200px;
     height: 800px;
